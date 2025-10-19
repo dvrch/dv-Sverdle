@@ -13,17 +13,11 @@ const config = {
 			strict: false
 		}),
 		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/dv-Sverdle' : ''
+			base: process.env.PUBLIC_BASE_PATH || ''
 		}
 	},
 	prerender: {
-		handleHttpError: ({ path, referrer, message }) => {
-			// Ignorer toutes les erreurs de base path
-			if (message.includes('does not begin with `base`')) {
-				return;
-			}
-			throw new Error(message);
-		}
+		entries: [] // Désactiver le prerender pour toutes les routes
 	}
 };
 
