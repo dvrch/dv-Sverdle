@@ -1,3 +1,5 @@
+export const prerender = false;
+
 import { fail } from '@sveltejs/kit';
 import { Game } from './game';
 
