@@ -1,4 +1,4 @@
-import { words, allowed } from './words.server';
+import { words, allowed } from './words.js';
 
 export class Game {
 	/**
