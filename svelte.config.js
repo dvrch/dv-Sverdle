@@ -11,13 +11,7 @@ const config = {
 			fallback: 'index.html',
 			precompress: false,
 			strict: false
-		}),
-		paths: {
-			base: process.env.PUBLIC_BASE_PATH || ''
-		}
-	},
-	prerender: {
-		entries: [] // Désactiver le prerender pour toutes les routes
+		})
 	}
 };
 

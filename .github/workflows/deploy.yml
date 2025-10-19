@@ -36,7 +36,6 @@ jobs:
         run: pnpm run build
         env:
           NODE_ENV: production
-          PUBLIC_BASE_PATH: /dv-Sverdle
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
