@@ -9,9 +9,13 @@ const config = {
 			pages: 'build',
 			assets: 'build',
 			fallback: 'index.html',
-			precompress: false,
-			strict: false
-		})
+			paths: {
+				base: process.argv.includes('dev') ? '' : '/dv-Sverdle'
+			}
+		}),
+		paths: {
+			base: process.argv.includes('dev') ? '' : '/dv-Sverdle'
+		}
 	}
 };
 
