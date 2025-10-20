@@ -8,10 +8,7 @@ const config = {
 		adapter: adapter({
 			pages: 'build',
 			assets: 'build',
-			fallback: 'index.html',
-			paths: {
-				base: process.argv.includes('dev') ? '' : '/dv-Sverdle'
-			}
+			fallback: 'index.html'
 		}),
 		paths: {
 			base: process.argv.includes('dev') ? '' : '/dv-Sverdle'
