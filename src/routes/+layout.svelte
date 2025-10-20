@@ -2,8 +2,6 @@
 	import Header from './Header.svelte';
 	import './styles.css';
 	import { base } from '$app/paths';
-
-	export let base;
 </script>
 
 <svelte:head>

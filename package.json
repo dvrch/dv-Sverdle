@@ -12,6 +12,12 @@
 		"@sveltejs/adapter-static": "^3.0.10",
 		"@sveltejs/kit": "^2.47.1",
 		"@sveltejs/vite-plugin-svelte": "^6.2.1",
+		"@dimforge/rapier3d-compat": "^0.19.2",
+		"@threlte/core": "^8.1.7",
+		"@threlte/extras": "^9.5.5",
+		"@threlte/rapier": "^3.1.5",
+		"@types/three": "^0.146.0",
+		"three": "^0.180.0",
 		"svelte": "^5.41.0",
 		"svelte-preprocess": "^6.0.3",
 		"vite": "^7.1.10"
