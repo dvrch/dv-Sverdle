@@ -6,5 +6,8 @@ export default defineConfig({
 	base: '/dv-Sverdle/',
 	ssr: {
 		noExternal: ['three', 'troika-three-text']
+	},
+	optimizeDeps: {
+		exclude: ['@threlte/core', '@threlte/extras', 'three']
 	}
 });
